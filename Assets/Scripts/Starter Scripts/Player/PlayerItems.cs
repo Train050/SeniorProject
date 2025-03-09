@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAttack : MonoBehaviour
+public class PlayerItem : MonoBehaviour
 {
 	[Header("References")]
 
@@ -10,18 +10,13 @@ public class PlayerAttack : MonoBehaviour
 	public bool UsePlayerAttackAnimations = false;
 	public Animator anim;
 	public Rigidbody2D rb;
-
-	public GameObject player;
-
 	public PlayerMovement playerMoveScript;
-
 
 	[Header("Player Weapons")]
 	[Tooltip("This is the list of all the weapons that your player uses")]
 	public List<Item> itemList;
-
 	[Tooltip("This is the current weapon that the player is using")]
-	public Item weapon;
+	public Item item;
 	[Tooltip("The coolDown before you can attack again")]
 	public float coolDown = 0.4f;
 
@@ -37,6 +32,10 @@ public class PlayerAttack : MonoBehaviour
 		rb = GetComponent<Rigidbody2D>();
 		playerMoveScript = GetComponent<PlayerMovement>();
 		playerAudio = GetComponent<PlayerAudio>();
+		if (item == null && itemList.Count > 0)
+		{
+			item = itemList[0];
+		}
 	}
 
 	// Update is called once per frame
@@ -46,23 +45,25 @@ public class PlayerAttack : MonoBehaviour
 		{
 			if (itemList.Count > 0)
 			{
-				switchWeaponAtIndex(0);
+				switchItemAtIndex(0);
 			}
 		}
 		else if (Input.GetKeyDown(KeyCode.Alpha2))//Remove this if you don't have multiple weapons
 		{
 			if (itemList.Count > 1)
 			{
-				switchWeaponAtIndex(1);
+				switchItemAtIndex(1);
 			}
 		}
 
-		if (Input.GetKey(KeyCode.Mouse0) && weapon && weapon.itemType == ItemType.Weapon)
+		if (Input.GetKey(KeyCode.Mouse0))
 		{
-			Attack();
-			if (playerAudio && !playerAudio.AttackSource.isPlaying && playerAudio.AttackSource.clip != null)
-			{
-				playerAudio.AttackSource.Play();
+			if (ItemType.Weapon.Equals(item.itemType)) {
+				Attack();
+				if (playerAudio && !playerAudio.AttackSource.isPlaying && playerAudio.AttackSource.clip != null)
+				{
+					playerAudio.AttackSource.Play();
+				}
 			}
 		}
 		else
@@ -74,7 +75,7 @@ public class PlayerAttack : MonoBehaviour
 	public void Attack()
 	{
 		//This is where the weapon is rotated in the right direction that you are facing
-		if (weapon && canAttack)
+		if (item && canAttack)
 		{
 			Debug.Log("Kablammo!");
 			if (UsePlayerAttackAnimations)
@@ -84,10 +85,10 @@ public class PlayerAttack : MonoBehaviour
 
 			}
 
-			if (weapon is ProjectileWeapon)
-				weapon.WeaponStart(this.transform, playerMoveScript.GetLastLookDirection(), rb.linearVelocity);
+			if (item is ProjectileWeapon)
+				item.WeaponStart(this.transform, playerMoveScript.GetLastLookDirection(), rb.linearVelocity);
 			else
-				weapon.WeaponStart(this.transform, playerMoveScript.GetLastLookDirection());
+				item.WeaponStart(this.transform, playerMoveScript.GetLastLookDirection());
 
 			StartCoroutine(CoolDown());
 		}
@@ -95,48 +96,26 @@ public class PlayerAttack : MonoBehaviour
 
 	public void StopAttack()
 	{
-		if (weapon)
+		if (item)
 		{
-			weapon.WeaponFinished();
+			item.WeaponFinished();
 		}
 	}
 
-	public void switchWeaponAtIndex(int index)
+	public void switchItemAtIndex(int index)
 	{
-
-		if (weapon)
-		{
-			weapon.gameObject.SetActive(false);
-		}
-
 		//Makes sure that if the index exists, then a switch will occur
-		if (index < itemList.Count && itemList[index] != null)
+		if (index < itemList.Count && itemList[index])
 		{
+			//Deactivate current weapon
+			item.gameObject.SetActive(false);
+
 			//Switch weapon to index then activate
-			weapon = itemList[index];
-			weapon.gameObject.SetActive(true);
+			item = itemList[index];
+			item.gameObject.SetActive(true);
 		}
 
 	}
-
-	public void appendItem(GameObject prefab) {
-		GameObject item = Instantiate(prefab, player.transform.GetChild(0).transform.position, player.transform.rotation, player.transform);
-		item.SetActive(false);
-
-		Item weapon = item.GetComponent<Item>();
-
-		itemList.Add(weapon);
-	}
-
-	public void removeItem(int index) {
-		if (index < itemList.Count) {
-			GameObject item = itemList[index].gameObject;
-			item.SetActive(false);
-			itemList[index] = null;
-			Destroy(item);
-		}
-	}
-	
 
 	private IEnumerator CoolDown()
 	{

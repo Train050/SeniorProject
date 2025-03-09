@@ -7,12 +7,12 @@ public class PlayerInventory : MonoBehaviour
 {
     //Attach to the player to give them an inventory. Stores Item type pickups
 
-    public List<Item> inventory;
+    public List<ItemInvnetory> inventory;
 
     [System.Serializable]
-    public class Item //Custom class where we hold all the data we need for the item
+    public class ItemInvnetory //Custom class where we hold all the data we need for the item
     {
-        public Item(string itemName, int itemID, Sprite sprite, Color color, bool destroyOnUse)
+        public ItemInvnetory(string itemName, int itemID, Sprite sprite, Color color, bool destroyOnUse)
         {
             this.itemName = itemName;
             this.itemID = itemID;
@@ -36,11 +36,11 @@ public class PlayerInventory : MonoBehaviour
 
     void Start()
     {
-        inventory = new List<Item>();
+        inventory = new List<ItemInvnetory>();
         inventoryImageList = new List<Image>();
     }
 
-    public void AddItemToInventory(Item newItem)
+    public void AddItemToInventory(ItemInvnetory newItem)
     {
         inventory.Add(newItem);
         if (useUI)
@@ -50,7 +50,7 @@ public class PlayerInventory : MonoBehaviour
 
     }
 
-    public void RemoveItemFromInventory(Item item)
+    public void RemoveItemFromInventory(ItemInvnetory item)
     {
         inventory.Remove(item);
         if (useUI)
@@ -60,7 +60,7 @@ public class PlayerInventory : MonoBehaviour
 
     }
 
-    void AddItemToUI(Item newItem) //Helper Function
+    void AddItemToUI(ItemInvnetory newItem) //Helper Function
     {
         Image newImage = Instantiate(invisImagePrefab, inventoryImageEmpty.transform);
         newImage.transform.SetParent(inventoryImageEmpty.transform, false);
@@ -85,7 +85,7 @@ public class PlayerInventory : MonoBehaviour
         }
 
         //Reinitialize UI
-        foreach (Item item in inventory)
+        foreach (ItemInvnetory item in inventory)
         {
             AddItemToUI(item);
         }

@@ -53,7 +53,7 @@ public class CollectibleItem : MonoBehaviour
 					sprite = inventoryDisplaySprite;
 				}
 				collision.TryGetComponent<PlayerInventory>(out PlayerInventory inv);
-				inv.AddItemToInventory(new PlayerInventory.Item(itemName, itemID, sprite, spriteRenderer.color, destroyOnUse));
+				inv.AddItemToInventory(new PlayerInventory.ItemInvnetory(itemName, itemID, sprite, spriteRenderer.color, destroyOnUse));
 			}
 
 			if (singePickupInstance)

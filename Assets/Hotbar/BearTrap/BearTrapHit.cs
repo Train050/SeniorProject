@@ -26,8 +26,8 @@ public class BearTrapHit : MonoBehaviour
 
             if(parentTrap != null)
             {
-                Debug.Log("Parent trap does " + item.damageAmoumt + " damage");
-                playerHealth.GetComponent<HealthBar>().TakeDamage(item.damageAmoumt);
+                Debug.Log("Parent trap does " + item.healthValue + " damage");
+                playerHealth.GetComponent<HealthBar>().TakeDamage(item.healthValue);
             }
         }
         else if (collision.gameObject.tag == "Enemy" && animator.GetBool("isClosed") == false)

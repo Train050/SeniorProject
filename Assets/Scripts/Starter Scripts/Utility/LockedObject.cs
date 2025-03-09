@@ -35,7 +35,7 @@ public class LockedObject : MonoBehaviour
     {
         if (!used)
         {
-            foreach (PlayerInventory.Item i in inv.inventory)
+            foreach (PlayerInventory.ItemInvnetory i in inv.inventory)
             {
                 if (useKeyName && i.itemName.ToLower() == keyName.ToLower())
                 {
@@ -58,7 +58,7 @@ public class LockedObject : MonoBehaviour
     }
 
 
-    private void behaviours(PlayerInventory.Item item)
+    private void behaviours(PlayerInventory.ItemInvnetory item)
     {
         //Remove Item
         if (item.destroyOnUse)

@@ -120,8 +120,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 1
   itemName: MedKit
+  imageScale: 2.5
+  alignmnent: 0
   itemType: 0
-  healAmount: 25
+  healthValue: 0
 --- !u!212 &5622861690836028989
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -163,8 +165,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1521137845
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -2442376644214155571, guid: fe6d7b0df13c4e647a00d0887f8f620a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

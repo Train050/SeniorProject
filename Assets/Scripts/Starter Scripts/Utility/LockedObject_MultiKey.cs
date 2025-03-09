@@ -27,7 +27,7 @@ public class LockedObject_MultiKey : MonoBehaviour
     [Tooltip("The keys that need to be in the player's inventory to unlock the gameObject")]
     public List<KeyInfo> neededKeys;
 
-    private List<PlayerInventory.Item> keysToRemove = new List<PlayerInventory.Item>();
+    private List<PlayerInventory.ItemInvnetory> keysToRemove = new List<PlayerInventory.ItemInvnetory>();
 
     [Header("Key Behaviour")]
     public bool useKeyName = true;
@@ -49,7 +49,7 @@ public class LockedObject_MultiKey : MonoBehaviour
         {
             foreach (var key in neededKeys) //Go through player inventory keys.Count times, checking for a match for each key
             {
-                foreach (PlayerInventory.Item i in inv.inventory)
+                foreach (PlayerInventory.ItemInvnetory i in inv.inventory)
                 {
                     if (useKeyName && i.itemName.ToLower() == key.keyName.ToLower())
                     {
@@ -99,7 +99,7 @@ public class LockedObject_MultiKey : MonoBehaviour
         foreach (var key in keysToRemove)
         {
             inv.RemoveItemFromInventory(key);
-            keysToRemove = new List<PlayerInventory.Item>();
+            keysToRemove = new List<PlayerInventory.ItemInvnetory>();
         }
 
         //Set activation
