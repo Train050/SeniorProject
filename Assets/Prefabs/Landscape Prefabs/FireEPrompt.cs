@@ -6,18 +6,24 @@ public class FireEPrompt : MonoBehaviour
     public GameObject InventoryPanel;
     private GameObject gameManager;
     private GameObject fire;
-
+    private PauseMenu pauseMenu;
+    bool isFirewood = false;
+    int firewoodCount = 0;
+    public AudioClip woodOnFire;
+    private AudioSource audioSource;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         gameManager = GameObject.Find("GameManagers");
         fire = GameObject.Find("Fire");
+        pauseMenu = FindObjectOfType<PauseMenu>();
+        audioSource = GameObject.FindWithTag("WorldAudio").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-         if (Input.GetKeyDown(KeyCode.E) && InteractImage.active)
+         if (Input.GetKeyDown(KeyCode.E) && InteractImage.active && !pauseMenu.getOpen())
             {
                 if(gameManager != null)
                 {
@@ -39,6 +45,13 @@ public class FireEPrompt : MonoBehaviour
                             
                             Destroy(slot.currentItem);
                             slot.currentItem = null;
+                            firewoodCount--;
+                            audioSource.PlayOneShot(woodOnFire);
+                            
+                            if(firewoodCount == 0)
+                            {
+                                isFirewood = false;
+                            }
 
                             //Increase the brightness of the fire
                             if(fire != null)
@@ -56,9 +69,35 @@ public class FireEPrompt : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
+        //This could be optimized, might cause FPS issues later on
+        //Ensures the player still have firewood in their inventory when they're at the campfire
         if (collision.gameObject.tag == "Player")
         {
+            firewoodCount = 0;
+            isFirewood = false;
             
+            for(int i = 0; i < InventoryPanel.transform.childCount; i++)
+            {
+                Slot slot = InventoryPanel.transform.GetChild(i).GetComponent<Slot>();
+                
+                if(slot.currentItem == null)
+                {
+                    continue;
+                }
+                
+                Item item = slot.currentItem.GetComponent<Item>();
+
+                if(slot.currentItem != null && item.itemType == ItemType.Firewood)
+                {
+                    isFirewood = true;
+                    firewoodCount++;
+                }
+            }
+
+            if(!isFirewood)
+            {
+                InteractImage.gameObject.SetActive(false);
+            }
         }
     }
 
@@ -66,9 +105,31 @@ public class FireEPrompt : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            InteractImage.gameObject.SetActive(true);
+            firewoodCount = 0;
+            isFirewood = false;
+            
+            for(int i = 0; i < InventoryPanel.transform.childCount; i++)
+            {
+                Slot slot = InventoryPanel.transform.GetChild(i).GetComponent<Slot>();
+                
+                if(slot.currentItem == null)
+                {
+                    continue;
+                }
+                
+                Item item = slot.currentItem.GetComponent<Item>();
 
-           
+                if(slot.currentItem != null && item.itemType == ItemType.Firewood)
+                {
+                    isFirewood = true;
+                    firewoodCount++;
+                }
+            }
+
+            if(isFirewood && firewoodCount > 0)
+            {
+                InteractImage.gameObject.SetActive(true);
+            }
         }
     }
 

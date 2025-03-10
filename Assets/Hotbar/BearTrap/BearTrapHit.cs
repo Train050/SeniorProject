@@ -6,6 +6,8 @@ public class BearTrapHit : MonoBehaviour
     Animator animator;
     GameObject healthBar;
     public GameObject parentTrap;
+    public AudioClip snapShutSound;
+    private AudioSource audioSource;
     private GameObject playerHealth;
     Item item;
     
@@ -14,27 +16,36 @@ public class BearTrapHit : MonoBehaviour
         item = parentTrap.GetComponent<Item>();
         animator = parentTrap.GetComponent<Animator>();
         playerHealth = GameObject.FindWithTag("PlayerHealthBar");
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player" && animator.GetBool("isClosed") == false)
+        if(item.itemType == ItemType.Trap)
         {
-            Debug.Log("Player hit the trap!");
-            animator.SetBool("isClosed", true);
-
-            if(parentTrap != null)
+            if(animator.GetBool("isClosed") == false)
             {
-                Debug.Log("Parent trap does " + item.healthValue + " damage");
-                playerHealth.GetComponent<HealthBar>().TakeDamage(item.healthValue);
+                audioSource.PlayOneShot(snapShutSound);
             }
-        }
-        else if (collision.gameObject.tag == "Enemy" && animator.GetBool("isClosed") == false)
-        {
-            animator.SetBool("isClosed", true);
+            
+            if (collision.gameObject.tag == "Player" && animator.GetBool("isClosed") == false)
+            {
+                Debug.Log("Player hit the trap!");
+                animator.SetBool("isClosed", true);
 
-            //This is where you would damage the enemy (once that system is added)
+                if(parentTrap != null)
+                {
+                    Debug.Log("Parent trap does " + item.healthValue + " damage");
+                    playerHealth.GetComponent<HealthBar>().TakeDamage(item.healthValue);
+                }
+            }
+            else if (collision.gameObject.tag == "Enemy" && animator.GetBool("isClosed") == false)
+            {
+                animator.SetBool("isClosed", true);
+
+                //This is where you would damage the enemy (once that system is added)
+            }
         }
     }
     void Update()

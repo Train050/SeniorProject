@@ -27,13 +27,15 @@ public class Item : MonoBehaviour
 	public Alignment alignmnent = Alignment.Player;
 	public ItemType itemType;
 	// public WeaponType weaponType = WeaponType.Melee;
-
-	[Tooltip("How much damage is dealt by this damager")]
-	public int healthValue;
+	public int healthValue = 0;
 
 	public virtual void WeaponStart(Transform wielderPosition, Vector2 lastLookDirection) { }
 	public virtual void WeaponStart(Transform wielderPosition, Vector2 lastLookDirection, Vector2 currentVelocity) { }
 
 	public virtual void WeaponFinished() { }
 
+    public AudioClip placeInWorldSound;
+    public AudioClip useSound;
+    public AudioClip pickupSound;
+    //public int duration;
 }

@@ -1,0 +1,1807 @@
+fileFormatVersion: 2
+guid: eb1b2d55b06e49549bf36a008ae35834
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 959392890803352672
+    second: backanglecar1_0
+  - first:
+      213: -7963561267552279512
+    second: backanglecar1_1
+  - first:
+      213: -6987833110925545614
+    second: backanglecar1_2
+  - first:
+      213: -5636381025699458197
+    second: backanglecar1_3
+  - first:
+      213: 559262786542026846
+    second: backanglecar1_4
+  - first:
+      213: -2010734557736422236
+    second: backanglecar1_5
+  - first:
+      213: -3861547760729985578
+    second: backanglecar1_6
+  - first:
+      213: 896669706681119106
+    second: backanglecar1_7
+  - first:
+      213: 6444848766896282695
+    second: backanglecar1_8
+  - first:
+      213: -6915774049618106454
+    second: backanglecar1_9
+  - first:
+      213: -6906076049592682561
+    second: backanglecar1_10
+  - first:
+      213: -7965304718294528517
+    second: backanglecar1_11
+  - first:
+      213: -6036787127634214954
+    second: backanglecar1_12
+  - first:
+      213: 7378368317405314965
+    second: backanglecar1_13
+  - first:
+      213: -215748036924267113
+    second: backanglecar1_14
+  - first:
+      213: 6405676225305016560
+    second: backanglecar1_15
+  - first:
+      213: 6817802619771205339
+    second: backanglecar1_16
+  - first:
+      213: 8635598177190039577
+    second: backanglecar1_17
+  - first:
+      213: -4581376962696805886
+    second: backanglecar1_18
+  - first:
+      213: -4184702290204197364
+    second: backanglecar1_19
+  - first:
+      213: 40151939999630168
+    second: backanglecar1_20
+  - first:
+      213: -5461779747026866463
+    second: backanglecar1_21
+  - first:
+      213: -4386601157144376500
+    second: backanglecar1_22
+  - first:
+      213: -4173023503100768114
+    second: backanglecar1_23
+  - first:
+      213: -1393252116756417744
+    second: backanglecar1_24
+  - first:
+      213: -8273174250105294584
+    second: backanglecar1_25
+  - first:
+      213: 3187617931464399671
+    second: backanglecar1_26
+  - first:
+      213: 4938432320575609860
+    second: backanglecar1_27
+  - first:
+      213: -5427419786560172988
+    second: backanglecar1_28
+  - first:
+      213: 7607622855055316678
+    second: backanglecar1_29
+  - first:
+      213: 9055851940962700153
+    second: backanglecar1_30
+  - first:
+      213: -5280938735751935945
+    second: backanglecar1_31
+  - first:
+      213: -5743458375695629069
+    second: backanglecar1_32
+  - first:
+      213: 7374832648230817766
+    second: backanglecar1_33
+  - first:
+      213: -3780920549951842585
+    second: backanglecar1_34
+  - first:
+      213: 3552446711233102830
+    second: backanglecar1_35
+  - first:
+      213: -2539249134220608038
+    second: backanglecar1_36
+  - first:
+      213: -8464121099242508238
+    second: backanglecar1_37
+  - first:
+      213: -4197495860274093346
+    second: backanglecar1_38
+  - first:
+      213: -8643072993705171635
+    second: backanglecar1_39
+  - first:
+      213: -5747282567627832805
+    second: backanglecar1_40
+  - first:
+      213: 7293881354390302216
+    second: backanglecar1_41
+  - first:
+      213: 4348260833572446970
+    second: backanglecar1_42
+  - first:
+      213: -6702924356980914549
+    second: backanglecar1_43
+  - first:
+      213: 2951888440763469510
+    second: backanglecar1_44
+  - first:
+      213: -7995755247959960295
+    second: backanglecar1_45
+  - first:
+      213: -2647940774982204852
+    second: backanglecar1_46
+  - first:
+      213: 3193883719886179548
+    second: backanglecar1_47
+  - first:
+      213: -3771963672296812067
+    second: backanglecar1_48
+  - first:
+      213: -7348048862830434241
+    second: backanglecar1_49
+  - first:
+      213: 8095806219429060071
+    second: backanglecar1_50
+  - first:
+      213: -5498913434567310281
+    second: backanglecar1_51
+  - first:
+      213: 3927897783941297691
+    second: backanglecar1_52
+  - first:
+      213: -7959073405348964039
+    second: backanglecar1_53
+  - first:
+      213: 7882902283025362045
+    second: backanglecar1_54
+  - first:
+      213: 7645767453312012375
+    second: backanglecar1_55
+  - first:
+      213: -6166482542684456825
+    second: backanglecar1_56
+  - first:
+      213: -759242713386025955
+    second: backanglecar1_57
+  - first:
+      213: -7958877055769655885
+    second: backanglecar1_58
+  - first:
+      213: 5043236331340576466
+    second: backanglecar1_59
+  - first:
+      213: 8241522431637462925
+    second: backanglecar1_60
+  - first:
+      213: 757805606299841701
+    second: backanglecar1_61
+  - first:
+      213: -6155416246321132425
+    second: backanglecar1_62
+  - first:
+      213: -412215854018484176
+    second: backanglecar1_63
+  - first:
+      213: 2822154024235437579
+    second: backanglecar1_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 2
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: backanglecar1_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 351
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0647e5840c2705d00800000000000000
+      internalID: 959392890803352672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 351
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824ac7c483fbb7190800000000000000
+      internalID: -7963561267552279512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 319
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fe1990fca360f90800000000000000
+      internalID: -6987833110925545614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 319
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b639e68e15d87c1b0800000000000000
+      internalID: -5636381025699458197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_4
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 319
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50ceef8a86e2c700800000000000000
+      internalID: 559262786542026846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 287
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4b484b29f6814e0800000000000000
+      internalID: -2010734557736422236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_6
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 287
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddeb7e55c6096ac0800000000000000
+      internalID: -3861547760729985578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 287
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281f493f85c917c00800000000000000
+      internalID: 896669706681119106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_8
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 287
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c97f5aec3b07950800000000000000
+      internalID: 6444848766896282695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_9
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 287
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7e5a9a42c3600a0800000000000000
+      internalID: -6915774049618106454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_10
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 220
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7f1304c60b820a0800000000000000
+      internalID: -6906076049592682561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_11
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 255
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdcf4a8f8d857190800000000000000
+      internalID: -7965304718294528517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 255
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df36b87716093ca0800000000000000
+      internalID: -6036787127634214954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 255
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fb0f474ea356660800000000000000
+      internalID: 7378368317405314965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 255
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7952422bd42810df0800000000000000
+      internalID: -215748036924267113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 255
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f87873969885e850800000000000000
+      internalID: 6405676225305016560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_16
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 252
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6b0344c53bd9e50800000000000000
+      internalID: 6817802619771205339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_17
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 223
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9105c6ee9cec7d770800000000000000
+      internalID: 8635598177190039577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_18
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 223
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2028c44fcedab60c0800000000000000
+      internalID: -4581376962696805886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_19
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 219
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e7d954073fce5c0800000000000000
+      internalID: -4184702290204197364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_20
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 220
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85388b80af5ae8000800000000000000
+      internalID: 40151939999630168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_21
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 220
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee6a01024cd334b0800000000000000
+      internalID: -5461779747026866463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_22
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 220
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b87112d79af13c0800000000000000
+      internalID: -4386601157144376500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_23
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 191
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80925acb317616c0800000000000000
+      internalID: -4173023503100768114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_24
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 191
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0333c22e49c2aace0800000000000000
+      internalID: -1393252116756417744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_25
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 194
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801b0994ad7cf2d80800000000000000
+      internalID: -8273174250105294584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_26
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 191
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bd994be91bc3c20800000000000000
+      internalID: 3187617931464399671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 191
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c9737d706d88440800000000000000
+      internalID: 4938432320575609860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_28
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 188
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c8727b57eeda4b0800000000000000
+      internalID: -5427419786560172988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_29
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 159
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c617b40ea4b39960800000000000000
+      internalID: 7607622855055316678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_30
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 159
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b0d9f3c59dcad70800000000000000
+      internalID: 9055851940962700153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_31
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 159
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738c7ee033656b6b0800000000000000
+      internalID: -5280938735751935945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_32
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 159
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f48b6699032b40b0800000000000000
+      internalID: -5743458375695629069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_33
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 159
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef40c3583ba85660800000000000000
+      internalID: 7374832648230817766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_34
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 153
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e65520cac8778bc0800000000000000
+      internalID: -3780920549951842585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_35
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 127
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3cd825673dc4130800000000000000
+      internalID: 3552446711233102830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_36
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 127
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addff8ead56c2ccd0800000000000000
+      internalID: -2539249134220608038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_37
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 127
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230f2cf74b6698a80800000000000000
+      internalID: -8464121099242508238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_38
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 127
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2a03e11cf7fb5c0800000000000000
+      internalID: -4197495860274093346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_39
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 127
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d456e6ab7e2ad0880800000000000000
+      internalID: -8643072993705171635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_40
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 126
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b128fb484fc8d30b0800000000000000
+      internalID: -5747282567627832805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_41
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 95
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e674a7272193560800000000000000
+      internalID: 7293881354390302216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_42
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 95
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af264d7a030285c30800000000000000
+      internalID: 4348260833572446970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_43
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 95
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86c6d99fcd6af2a0800000000000000
+      internalID: -6702924356980914549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_44
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 95
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cec948a5e637f820800000000000000
+      internalID: 2951888440763469510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_45
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 95
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915916e17fe590190800000000000000
+      internalID: -7995755247959960295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_46
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 95
+        width: 68
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42c9e005ef904bd0800000000000000
+      internalID: -2647940774982204852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_47
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 63
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc08b14254f25c20800000000000000
+      internalID: 3193883719886179548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_48
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 63
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd11217560b47abc0800000000000000
+      internalID: -3771963672296812067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_49
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 63
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3867caad7c760a90800000000000000
+      internalID: -7348048862830434241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_50
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 63
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed9777fcd41a5070800000000000000
+      internalID: 8095806219429060071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_51
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 63
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7340ef1ad5fefa3b0800000000000000
+      internalID: -5498913434567310281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_52
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 63
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b167ddd3932b28630800000000000000
+      internalID: 3927897783941297691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_53
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 31
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9399ae428e0bb8190800000000000000
+      internalID: -7959073405348964039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_54
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 31
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ca7da6cd1b56d60800000000000000
+      internalID: 7882902283025362045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_55
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 31
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750d7e16df83b1a60800000000000000
+      internalID: 7645767453312012375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_56
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 31
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78835a18cc04c6aa0800000000000000
+      internalID: -6166482542684456825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_57
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 31
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c725a56c0a675f0800000000000000
+      internalID: -759242713386025955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_58
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 31
+        width: 68
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5c7d75c736c8190800000000000000
+      internalID: -7958877055769655885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_59
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d636ef19bc2df540800000000000000
+      internalID: 5043236331340576466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_60
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f1a227cf4cf5270800000000000000
+      internalID: 8241522431637462925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_61
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a43d441f24448a00800000000000000
+      internalID: 757805606299841701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_62
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c4c596981939aa0800000000000000
+      internalID: -6155416246321132425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_63
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038a1726dd3874af0800000000000000
+      internalID: -412215854018484176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backanglecar1_64
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e0ef3f12e4a2720800000000000000
+      internalID: 2822154024235437579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c4e8870bd6cd75542ad0435c36650f56
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      backanglecar1_0: 959392890803352672
+      backanglecar1_1: -7963561267552279512
+      backanglecar1_10: -6906076049592682561
+      backanglecar1_11: -7965304718294528517
+      backanglecar1_12: -6036787127634214954
+      backanglecar1_13: 7378368317405314965
+      backanglecar1_14: -215748036924267113
+      backanglecar1_15: 6405676225305016560
+      backanglecar1_16: 6817802619771205339
+      backanglecar1_17: 8635598177190039577
+      backanglecar1_18: -4581376962696805886
+      backanglecar1_19: -4184702290204197364
+      backanglecar1_2: -6987833110925545614
+      backanglecar1_20: 40151939999630168
+      backanglecar1_21: -5461779747026866463
+      backanglecar1_22: -4386601157144376500
+      backanglecar1_23: -4173023503100768114
+      backanglecar1_24: -1393252116756417744
+      backanglecar1_25: -8273174250105294584
+      backanglecar1_26: 3187617931464399671
+      backanglecar1_27: 4938432320575609860
+      backanglecar1_28: -5427419786560172988
+      backanglecar1_29: 7607622855055316678
+      backanglecar1_3: -5636381025699458197
+      backanglecar1_30: 9055851940962700153
+      backanglecar1_31: -5280938735751935945
+      backanglecar1_32: -5743458375695629069
+      backanglecar1_33: 7374832648230817766
+      backanglecar1_34: -3780920549951842585
+      backanglecar1_35: 3552446711233102830
+      backanglecar1_36: -2539249134220608038
+      backanglecar1_37: -8464121099242508238
+      backanglecar1_38: -4197495860274093346
+      backanglecar1_39: -8643072993705171635
+      backanglecar1_4: 559262786542026846
+      backanglecar1_40: -5747282567627832805
+      backanglecar1_41: 7293881354390302216
+      backanglecar1_42: 4348260833572446970
+      backanglecar1_43: -6702924356980914549
+      backanglecar1_44: 2951888440763469510
+      backanglecar1_45: -7995755247959960295
+      backanglecar1_46: -2647940774982204852
+      backanglecar1_47: 3193883719886179548
+      backanglecar1_48: -3771963672296812067
+      backanglecar1_49: -7348048862830434241
+      backanglecar1_5: -2010734557736422236
+      backanglecar1_50: 8095806219429060071
+      backanglecar1_51: -5498913434567310281
+      backanglecar1_52: 3927897783941297691
+      backanglecar1_53: -7959073405348964039
+      backanglecar1_54: 7882902283025362045
+      backanglecar1_55: 7645767453312012375
+      backanglecar1_56: -6166482542684456825
+      backanglecar1_57: -759242713386025955
+      backanglecar1_58: -7958877055769655885
+      backanglecar1_59: 5043236331340576466
+      backanglecar1_6: -3861547760729985578
+      backanglecar1_60: 8241522431637462925
+      backanglecar1_61: 757805606299841701
+      backanglecar1_62: -6155416246321132425
+      backanglecar1_63: -412215854018484176
+      backanglecar1_64: 2822154024235437579
+      backanglecar1_7: 896669706681119106
+      backanglecar1_8: 6444848766896282695
+      backanglecar1_9: -6915774049618106454
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

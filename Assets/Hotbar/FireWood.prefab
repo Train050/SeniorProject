@@ -12,13 +12,9 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -8907015550746980148, guid: 96e0f687f11e6d34fa05ac9bb0017ac7, type: 3}
-    - target: {fileID: 732976604007783661, guid: 72b450155995ac54d88661b4db0f2d5d, type: 3}
-      propertyPath: m_SortingLayer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 732976604007783661, guid: 72b450155995ac54d88661b4db0f2d5d, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 1521137845
+    - target: {fileID: 1209709687734063782, guid: 72b450155995ac54d88661b4db0f2d5d, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3736733309027424565, guid: 72b450155995ac54d88661b4db0f2d5d, type: 3}
       propertyPath: m_Sprite
@@ -119,6 +115,14 @@ PrefabInstance:
     - target: {fileID: 6906046469158927170, guid: 72b450155995ac54d88661b4db0f2d5d, type: 3}
       propertyPath: imageScale
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6906046469158927170, guid: 72b450155995ac54d88661b4db0f2d5d, type: 3}
+      propertyPath: damageAmoumt
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6906046469158927170, guid: 72b450155995ac54d88661b4db0f2d5d, type: 3}
+      propertyPath: placeInWorldSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7077932021804164520, guid: 72b450155995ac54d88661b4db0f2d5d, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
