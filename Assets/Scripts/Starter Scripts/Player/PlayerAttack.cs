@@ -128,7 +128,7 @@ public class PlayerAttack : MonoBehaviour
 	}
 
 	public void removeItem(int index) {
-		if (index < itemList.Count) {
+		if (index < itemList.Count && itemList[index]) {
 			GameObject item = itemList[index].gameObject;
 			item.SetActive(false);
 			itemList[index] = null;
