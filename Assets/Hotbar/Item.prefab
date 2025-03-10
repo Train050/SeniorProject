@@ -124,7 +124,7 @@ MonoBehaviour:
   imageScale: 2.5
   alignmnent: 0
   itemType: 0
-  healthValue: 25
+  healthValue: -25
   placeInWorldSound: {fileID: 0}
   useSound: {fileID: 0}
   pickupSound: {fileID: 8300000, guid: 6a212df316334f04cabb694a1f3c46c8, type: 3}
