@@ -31,10 +31,12 @@ public class HotbarController : MonoBehaviour
             if (i < itemPrefabs.Length)
             {
                 GameObject item = Instantiate(itemPrefabs[i], slot.transform);
+                item.gameObject.SetActive(true);
                 item.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
                 item.transform.localScale = new Vector3(1, 1, 1);
+                item.gameObject.SetActive(true);
                 slot.currentItem = item;
-                // playerAttack.appendItem(itemPrefabs[i]);
+                playerAttack.appendItem(itemPrefabs[i]);
             }
         }
 

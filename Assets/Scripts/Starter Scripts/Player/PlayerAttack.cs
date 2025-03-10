@@ -103,7 +103,6 @@ public class PlayerAttack : MonoBehaviour
 
 	public void switchWeaponAtIndex(int index)
 	{
-
 		if (weapon)
 		{
 			weapon.gameObject.SetActive(false);
@@ -120,7 +119,7 @@ public class PlayerAttack : MonoBehaviour
 	}
 
 	public void appendItem(GameObject prefab) {
-		GameObject item = Instantiate(prefab, player.transform.GetChild(0).transform.position, player.transform.rotation, player.transform);
+		GameObject item = Instantiate(prefab, player.transform.Find("HandPosition").transform.position + prefab.transform.position, prefab.transform.rotation, player.transform);
 		item.SetActive(false);
 
 		Item weapon = item.GetComponent<Item>();
