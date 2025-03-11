@@ -241,7 +241,7 @@ MonoBehaviour:
   weapon: {fileID: 1832771685271118710}
   showAttackRadius: 1
   attackRadius: 1
-  coolDown: 0.5
+  coolDown: 1
 --- !u!61 &7845210521473814828
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -40,7 +40,7 @@ public class EnemyAttack : MonoBehaviour
 
 			if (canAttack && other.CompareTag("Player"))
 			{
-				Debug.Log("Chase Player");
+				Debug.Log("Attack Player");
 				Attack(other.transform.position - this.transform.position);
 			}
 		}
@@ -58,7 +58,7 @@ public class EnemyAttack : MonoBehaviour
 			{
 				healthBar.GetComponent<HealthBar>().TakeDamage(weapon.healthValue);
 			}
-			anim.SetBool("isAttacking", false);
+			// anim.SetBool("isAttacking", false);
 			StartCoroutine(CoolDown());
 		}
 	}
@@ -76,6 +76,7 @@ public class EnemyAttack : MonoBehaviour
 		canAttack = false;
 		// anim.SetBool("isChasing", false);
 		yield return new WaitForSeconds(coolDown);
+		anim.SetBool("isAttacking", false);
 		canAttack = true;
 	}
 
