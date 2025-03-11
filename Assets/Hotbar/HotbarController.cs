@@ -23,7 +23,6 @@ public class HotbarController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log(itemPrefabs);
         playerAttack = player.GetComponent<PlayerAttack>();
         for (int i = 0; i < slotCount; i++)
         {
@@ -41,7 +40,7 @@ public class HotbarController : MonoBehaviour
             }
         }
 
-        // SelectSlot(0);
+        SelectSlot(0);
         healthBar = GameObject.Find("PlayerHealthBar");
         audioSource = GameObject.FindWithTag("WorldAudio").GetComponent<AudioSource>();
     }

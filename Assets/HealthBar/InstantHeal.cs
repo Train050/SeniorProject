@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
-using UnityEngine;
+
 public class InstantHeal : MonoBehaviour
 {
     public int HealingToPlayer = 30;
