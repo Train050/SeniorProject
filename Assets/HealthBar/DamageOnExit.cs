@@ -57,7 +57,7 @@ public class DamageOnExit : MonoBehaviour
     //outside light radius coroutine
     private System.Collections.IEnumerator RepeatedExitTrigger()
     {
-        while (!playerInside)
+        while (!playerInside && playerHealth)
         {
             Debug.Log("Damage on Exit: Player outside light radius for 1s; take dmg");
             playerHealth.TakeDamageOverTime(DamageToPlayer, TimeToDamage);

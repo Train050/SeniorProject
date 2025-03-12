@@ -84,6 +84,9 @@ public class EnemyHealth : MonoBehaviour
 
 			StartCoroutine(DestroyAfterAnimation()); // Jane Apostol Fall '23  Delay destruction of sprite until after animation
 		}
+		else if (currentHealth > maxHealth) {
+			currentHealth = maxHealth;
+		}
 
 		if (EnemyHealthBar)
 			UpdateHealthBar();
@@ -127,7 +130,7 @@ public class EnemyHealth : MonoBehaviour
 	{
 		if (collision.gameObject.TryGetComponent(out Item weapon))
 		{
-			if (weapon.alignmnent == Item.Alignment.Player || weapon.alignmnent == Item.Alignment.Environment)
+			if ((weapon.alignmnent == Item.Alignment.Player || weapon.alignmnent == Item.Alignment.Environment) && weapon.itemType == ItemType.Weapon)
 			{
 				DecreaseHealth(weapon.healthValue);
 

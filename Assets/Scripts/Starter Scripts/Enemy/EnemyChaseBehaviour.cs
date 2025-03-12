@@ -10,6 +10,8 @@ public class EnemyChaseBehaviour : StateMachineBehaviour
     [Tooltip("To use Blend Tree it needs the following parameters: float \"distance\", float \"Horizontal\", float \"Vertical\", bool \"SpriteFacingRight\" ")]
     public bool useBlendTree = false;
 
+    private bool turnedAround = false;
+
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -31,6 +33,23 @@ public class EnemyChaseBehaviour : StateMachineBehaviour
 
             FlipCheck(blendTreePos.x);
         }
+
+        if (playerPos.position.x < enemyPos.transform.position.x && !turnedAround) {
+            Vector3 currentScale = anim.transform.localScale;
+            currentScale.x *= -1;
+            anim.transform.localScale = currentScale;
+            turnedAround = true;
+        } 
+        else if (playerPos.position.x > enemyPos.transform.position.x && turnedAround)
+        {
+            Vector3 currentScale = anim.transform.localScale;
+            currentScale.x *= -1;
+            anim.transform.localScale = currentScale;
+            turnedAround = false;
+        }
+        
+
+
 
         enemyPos.position = Vector2.MoveTowards(enemyPos.transform.position, playerPos.position, step); // move towards the player
     }
