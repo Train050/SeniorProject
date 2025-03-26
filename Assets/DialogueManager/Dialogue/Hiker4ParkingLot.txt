@@ -1,0 +1,2 @@
+[NAME=Hiker1][SPEAKERSPRITE=TheHiker] I don't think I've walked farther than the length of my driveway in ten years. Are you sure we can't drive there?
+[NAME=Hiker2][SPEAKERSPRITE=TheHiker] For the last time, yes. C'mon, let's go.

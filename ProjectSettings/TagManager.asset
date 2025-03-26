@@ -10,6 +10,7 @@ TagManager:
   - Fire
   - Enemy
   - Cover
+  - WorldAudio
   layers:
   - Default
   - TransparentFX

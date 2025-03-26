@@ -1,0 +1,3 @@
+[NAME=Hiker1][SPEAKERSPRITE=TheHiker] Did you make sure to pack your water bottle? Put on some sunscreen!
+[NAME=Hiker2][SPEAKERSPRITE=TheHiker] But I don't want to.
+[NAME=Hiker1][SPEAKERSPRITE=TheHiker] This is the last time I'm asking. Put it on!

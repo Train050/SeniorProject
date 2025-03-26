@@ -1,0 +1,4 @@
+[NAME=Keys][SPEAKERSPRITE=Radio] Keys to Nate's truck.
+[NAME=Nate][SPEAKERSPRITE=TheHiker] I'll need these to get back to the visitor center later.
+[NAME=Nate][SPEAKERSPRITE=TheHiker] Thanks!
+[NAME=Hiker][SPEAKERSPRITE=TheHiker] No problem! See you on the trail.

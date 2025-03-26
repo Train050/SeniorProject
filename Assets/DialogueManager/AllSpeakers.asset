@@ -19,3 +19,5 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 6af73d226ad59a149bb4106a665f120e, type: 3}
   - name: BloodNote
     sprite: {fileID: 21300000, guid: 6dc7d71cb3e5ed6459579e7bfdf4d657, type: 3}
+  - name: Radio
+    sprite: {fileID: 1875917246518206917, guid: 3d1ac3d6af8eafc4880c1f02f71279c4, type: 3}

@@ -1,0 +1,4 @@
+[NAME=Hiker1][SPEAKERSPRITE=TheHiker] Dude, how much stuff do you have in there? We'll only be gone for an hour.
+[NAME=Hiker2][SPEAKERSPRITE=TheHiker] We've got to be prepared for any situation. I've got enough supplies to survive for a week.
+[NAME=Hiker1][SPEAKERSPRITE=TheHiker] We're literally staying at a hotel tonight. Just bring some water and you'll be fine.
+[NAME=Hiker2][SPEAKERSPRITE=TheHiker] You never know.

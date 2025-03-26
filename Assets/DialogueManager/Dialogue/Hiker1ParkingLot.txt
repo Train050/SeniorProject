@@ -1,0 +1,5 @@
+[NAME=Nate][SPEAKERSPRITE=Radio] I'm at the trailhead. Going to talk to the family now.
+[NAME=Instructions][SPEAKERSPRITE=Radio] Press W to move forward.
+[NAME=Hiker][SPEAKERSPRITE=TheHiker] Hey man! You dropped a couple things.
+[NAME=Instructions][SPEAKERSPRITE=Radio] Press A to move left. Press W to move up. Press S to move down.
+[NAME=Instructions][SPEAKERSPRITE=Radio] Press E to interact with items.

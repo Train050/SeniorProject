@@ -8,4 +8,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Used/TitleScreen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Game Used/DayOneParkingLot.unity
+    guid: 4acdbaa7b936b884ba2e8e9f8799e156
+  - enabled: 1
+    path: Assets/Scenes/Game Used/DayOneCampgroundTrail.unity
+    guid: fa246ce2b1b73ed4b956e173886d369f
+  - enabled: 1
+    path: Assets/Scenes/Game Used/NightOne.unity
+    guid: db6137c1a98514940bcff85249ede808
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

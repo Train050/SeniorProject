@@ -1,0 +1,3 @@
+[NAME=Nate][SPEAKERSPRITE=TheHiker] I talked to the missing child's family, and I'm on the trail now.
+[NAME=Nate][SPEAKERSPRITE=TheHiker] I'll let you know of any updates.
+[NAME=Radio][SPEAKERSPRITE=Radio] Sounds good. Be safe out there.
